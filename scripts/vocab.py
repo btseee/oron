@@ -2,8 +2,8 @@ from pathlib import Path
 from collections import Counter
 
 
-MN_CYRILLIC_CHARS = list("АБВГДЕЁЖЗИЙКЛМНОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмноөпрстуүфхцчшщъыьэюя")
-PUNCTUATION = list(".,!?;:—-…\"'«»")
+MN_CYRILLIC_CHARS = list("абвгдеёжзийклмноөпрстуүфхцчшщъыьэюя")
+PUNCTUATION = list(".,!?")
 SPECIAL_TOKENS = ["<pad>", "<unk>", "<bos>", "<eos>", "<space>"]
 
 
