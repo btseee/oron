@@ -215,19 +215,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Data (keep structure, ignore large files)
-data/raw/
-data/prepared/
-*.mp3
-*.wav
-*.spec.pt
+# Data
+data/
 
 # Checkpoints
 checkpoints/
 
-# Output
-output.wav
+# Outputs
 *.wav
-
-# Environment
-.env
+output/
