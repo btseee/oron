@@ -1,7 +1,3 @@
-[submodule "vits2"]
-    path = src/vits2
-    url = https://github.com/daniilrobnikov/vits2
-    branch = main
 [submodule "src/vits2"]
 	path = src/vits2
 	url = https://github.com/daniilrobnikov/vits2
